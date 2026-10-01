@@ -13,7 +13,7 @@ back-office web, et une file hors ligne qui tolère les coupures réseau des sal
 Projet solo, de la définition du besoin jusqu'à une image Docker de production, en passant par
 l'intégration d'un lecteur RFID industriel dont le SDK officiel ne fonctionnait pas.
 
-## Aperçu
+### Dashboard web
 
 | | |
 |---|---|
@@ -22,7 +22,16 @@ l'intégration d'un lecteur RFID industriel dont le SDK officiel ne fonctionnait
 | ![Sorties en cours](docs/screenshots/06-sorties-light.jpg) | ![Sessions d'inventaire](docs/screenshots/07-inventaires-light.jpg) |
 | ![Unités d'archive](docs/screenshots/08-unites-light.jpg) | ![Écran de connexion](docs/screenshots/01-login-dark.jpg) |
 
-*Données de démonstration — aucune information réelle de client ou de dossier bancaire.*
+### Application terrain (Flutter, sur le terminal Chainway C72E réel)
+
+| | |
+|---|---|
+| ![Connexion mobile](docs/screenshots/09-mobile-login.png) | ![Accueil mobile](docs/screenshots/10-mobile-accueil.png) |
+| ![Liste des unités d'archive](docs/screenshots/11-mobile-archives.png) | ![Détail d'un dossier](docs/screenshots/12-mobile-detail-dossier.png) |
+| ![Sorties et retours](docs/screenshots/13-mobile-mouvements.png) | |
+
+*Données de démonstration — aucune information réelle de client ou de dossier bancaire. Les captures
+mobiles sont prises directement sur le terminal durci cible (Android 8.1), pas un émulateur.*
 
 ## Stack technique
 
